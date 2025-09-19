@@ -10,7 +10,7 @@
 ---
 
 ### 📖 개요
- ﻿﻿MatjipOn은 식당 대기(WAITING)부터 주문·결제까지 한 번에 해결할 수 있는 통합 시스템입니다. 
+&nbsp;&nbsp;﻿﻿MatjipOn은 식당 대기(WAITING)부터 주문·결제까지 한 번에 해결할 수 있는 통합 시스템입니다. 
 - 손님: 실시간으로 매장의 혼잡도를 확인하고 최적의 맛집을 선택
 - 관리자: 예약·주문을 효율적으로 관리 및 매출 통계 확인
 본 프로젝트는 **대기·주문·리뷰·매출 관리까지 연계되는 데이터베이스와 GUI 프로그램**을 구축하여, 고객과 관리자 모두에게 편의성과 효율성을 제공하는 것을 목표로 합니다.
@@ -19,25 +19,44 @@
 ---
 
 ### 💡 기획 의도(동기)
-﻿ ﻿최근 외식 산업에서는 대기 시간 관리와 매장 혼잡도 파악이 중요한 요소로 부각되고 있습니다. 손님 입장에서는 대기 시간과 혼잡도를 미리 알 수 없다면 불편을 겪고, 관리자는 실시간 매장 상황 파악과 예약자 관리에 어려움이 발생합니다. 이에 따라 MatjipOn은 **실시간 웨이팅 관리, 리뷰·주문 기록, 매출 통계 제공** 기능을 통해 손님에게는 최적의 맛집 선택과 효율적인 주문 경험을 제공하고, 관리자에게는 매장 운영 최적화와 데이터 기반 통계 관리 기능을 지원합니다.
+﻿&nbsp;&nbsp;최근 외식 산업에서는 대기 시간 관리와 매장 혼잡도 파악이 중요한 요소로 부각되고 있습니다. 손님 입장에서는 대기 시간과 혼잡도를 미리 알 수 없다면 불편을 겪고, 관리자는 실시간 매장 상황 파악과 예약자 관리에 어려움이 발생합니다. 이에 따라 MatjipOn은 **실시간 웨이팅 관리, 리뷰·주문 기록, 매출 통계 제공** 기능을 통해 손님에게는 최적의 맛집 선택과 효율적인 주문 경험을 제공하고, 관리자에게는 매장 운영 최적화와 데이터 기반 통계 관리 기능을 지원합니다.
 
 ---
 
-### 🎯 목표 및 설계
-#### 1. 팀 목표
-**1) 손님**
+## 🎯 목표 및 설계
+### 목표
+&nbsp;&nbsp;**1. 손님**
 - ﻿혼잡도를 기반으로 최적의 맛집 선택 가능
 - 메뉴 추천 및 검색 기능으로 맛집 선택 고민 시간 단축  
 
-
-**2) 관리자**
+&nbsp;&nbsp;**2. 관리자**
 - 예약·주문 시간 효율적 관리
 - 실시간 혼잡도 반영 및 매출 통계 확인 
   
-#### 2. 담당 파트 목표  
+&nbsp;&nbsp;**3. 담당 파트 목표**  
 - **로그인, 회원가입**: 아이디 중복확인, 보안 강화(SHA-256)
 - **전체 가게 보기 패널**: 가게별 세부 정보(별점·혼잡도 등) 제공, 자동 이미지 슬라이드
 - **디자인**: 오렌지색 메인 컬러 활용, 웨이팅 번호 UI, 맛집온 캐릭터를 통한 직관적 기능 표현
+
+### 📊 ERD & 테이블 설계
+ERD 이미지 첨부 (https://drive.google.com/file/d/1mbwrZ37V6qrvh-W06B4CMY7UKpvFEwQD/view?usp=drive_link)
+
+<details>
+<summary>📷 ERD 이미지 더보기</summary>
+  
+<img width="852" height="792" alt="image" src="https://github.com/user-attachments/assets/a236bd0b-6a02-4f21-aad2-44c0baa42585" />
+
+
+</details>
+
+#### 주요 테이블  
+- **사용자(로그인, 회원가입)**: user_table
+- ﻿**관리자**: manager_table
+- **맛집 정보**(위치, 카테고리, 혼잡도): matjip_table
+- **웨이팅 현황 관리**: waiting_table
+- **주문 및 상세 내역**: order_table, order_detail_table
+- **매장별 메뉴 정보**: menu_table
+- **리뷰 및 평점 관리**: review_table
 
 ---
 
@@ -84,28 +103,6 @@
 |관리자| 매출 차트| <img width="545" height="269" alt="image" src="https://github.com/user-attachments/assets/0db0ecf4-325c-425c-9340-842e4f80d70e" /> |
 
 </details>
-
-
----
-### 📊 ERD & 테이블 설계
-ERD 이미지 첨부 (https://drive.google.com/file/d/1mbwrZ37V6qrvh-W06B4CMY7UKpvFEwQD/view?usp=drive_link)
-
-<details>
-<summary>📷 ERD 이미지 더보기</summary>
-  
-<img width="852" height="792" alt="image" src="https://github.com/user-attachments/assets/a236bd0b-6a02-4f21-aad2-44c0baa42585" />
-
-
-</details>
-
-**주요 테이블**  
-- **사용자(로그인, 회원가입)**: user_table
-- ﻿**관리자**: manager_table
-- **맛집 정보**(위치, 카테고리, 혼잡도): matjip_table
-- **웨이팅 현황 관리**: waiting_table
-- **주문 및 상세 내역**: order_table, order_detail_table
-- **매장별 메뉴 정보**: menu_table
-- **리뷰 및 평점 관리**: review_table
 
 ---
 ### 📌 후기  
