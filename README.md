@@ -61,11 +61,28 @@
 ---
 
 <details>
-<summary>📷 화면 구성</summary>
+<summary>📷 화면 구성(클릭해서 보기)</summary>
 
-![지갑 페이지](./images/wallet.png)  
-![포인트 관리](./images/point.png)  
-![나무 키우기](./images/tree.png)  
+|구분| 화면 | 미리보기 |
+|----------|----------|----------|
+|공통| 메인(시작화면) | <img width="411" height="414" alt="화면 캡처 2025-09-17 155531" src="https://github.com/user-attachments/assets/9e85b30e-98ba-46fa-8dae-6bce3c4ac18b" />
+|공통| 챗봇 | <img width="920" height="566" alt="image" src="https://github.com/user-attachments/assets/b112571a-50b4-4902-8a6d-3db6e1b62f9f" /> |
+|공통| 회원가입 | <img width="247" height="324" alt="그림" src="https://github.com/user-attachments/assets/deffd1c5-df4f-440a-b17a-48cbd1973e92" /> |
+|공통| 로그인 | <img width="373" height="336" alt="화면 캡처 2025-09-17 155224" src="https://github.com/user-attachments/assets/b52fd8f3-e0a4-403b-88a6-8c53e3fccaa0" /> |
+|유저| 맛집검색 |<img width="439" height="416" alt="search" src="https://github.com/user-attachments/assets/fa858c8c-8f78-4688-9daf-176baf461c26" /> |
+|유저| 가게 패널 | <img width="345" height="317" alt="그림2" src="https://github.com/user-attachments/assets/e905db0c-979e-4420-82bd-2861ff77f0c6" /> |
+|유저| 리뷰보기 | <img width="437" height="413" alt="리뷰보기" src="https://github.com/user-attachments/assets/2982dec5-6310-4470-a90f-eb5756186bca" /> |
+|유저| 혼잡도 분류 | <img width="367" height="357" alt="image" src="https://github.com/user-attachments/assets/2e419845-7175-4f05-99d3-1780fda74daa" /> |
+|유저| 혼잡도 낮은 가게 |<img width="373" height="328" alt="nowaiting" src="https://github.com/user-attachments/assets/87859414-2fce-4e78-89c6-29baf886be3c" /> |
+|유저| 혼잡도 높은 가게 | <img width="376" height="332" alt="image" src="https://github.com/user-attachments/assets/a642a7e3-c24f-4eff-a375-8be596c861f9" /> |
+|유저| 웨이팅 대기 번호| <img width="413" height="337" alt="image" src="https://github.com/user-attachments/assets/17aba6ea-292e-4a7f-a757-7a7befe500cb" /> |
+|유저| 키오스크 |<img width="488" height="490" alt="image" src="https://github.com/user-attachments/assets/45a3746e-4ded-48ab-9787-1fa67d0524f2" /> |
+|유저| 리뷰작성 | <img width="328" height="308" alt="review" src="https://github.com/user-attachments/assets/d198fbda-a9fd-4e53-8e1e-15d26da137e3" /> |
+|관리자| 메인 | <img width="373" height="320" alt="image" src="https://github.com/user-attachments/assets/b2f3dc57-3a98-43eb-b8e1-182d978230e0" /> |
+|관리자| 예약명단관리| <img width="369" height="338" alt="image" src="https://github.com/user-attachments/assets/42e4813c-c71c-4248-845e-c625709c7c8e" /> |
+|관리자| 가게 혼잡도 제출| <img width="374" height="323" alt="image" src="https://github.com/user-attachments/assets/36479bd2-71a3-4769-8608-3906f2b2f193" /> |
+|관리자| 리뷰관리(삭제)| <img width="374" height="331" alt="image" src="https://github.com/user-attachments/assets/5cdd678b-a44e-47e6-afe2-e9caf506985a" /> |
+|관리자| 매출 차트| <img width="545" height="269" alt="image" src="https://github.com/user-attachments/assets/0db0ecf4-325c-425c-9340-842e4f80d70e" /> |
 
 </details>
 
