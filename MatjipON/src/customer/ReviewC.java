@@ -73,10 +73,7 @@ public class ReviewC extends JFrame {
 		
 					// ReservationDAO와 같은 이름
 //		 this.userid = userid;
-//		 this.matjip_id = matjip_id;
-		//이 코드는 Review 클래스의 **생성자(Constructor)**입니다.
-		//이 생성자는 userid와 matjip_id 두 개의 인자를 받아야만 객체를 생성할 수 있어요.
-		
+//		 this.matjip_id = matjip_id;		
 		
 ////////////////////폰트 - 더 안전한 resource 불러오기 방법
 ///
